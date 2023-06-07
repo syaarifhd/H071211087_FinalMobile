@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmApp</string>
+    <string name="title">Judul :</string>
+    <string name="release_date">Tanggal Rilis :</string>
+    <string name="synopsis">Sinopsis :</string>
+    <string name="translate_to">Ganti Bahasa</string>
+    <string name="about">Tentang</string>
+    <string name="aboutappisi">Aplikasi ini dibuat menggunakan Android Studio dengan menggunakan bahasa pemrograman Java, isi konten daftar film menggunakan recycler view yang di ambil dari api JSON menggunakan volley dibantu dengan menggunakan singletron pattern. kemudian ada fitur lokalisasi dimana bahasa yang telah dilokalisasi akan mengikuti bahasa perengkat. sekian, Selamat bersenang senang!</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="app_author">Dibuat oleh</string>
+</resources>
