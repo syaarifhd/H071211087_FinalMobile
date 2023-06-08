@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
     MovieFragment movieFragment = new MovieFragment();
+    TvFragment tvFragment = new TvFragment();
     AboutFragment aboutFragment = new AboutFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.movies:
                         getSupportFragmentManager().beginTransaction().replace(R.id.framefrag,movieFragment).commit();
                         return true;
-//                    case R.id.tvshows:
-//                        getSupportFragmentManager().beginTransaction().replace(R.id.framefrag,tvFragment).commit();
-//                        return true;
+                    case R.id.tvshows:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framefrag,tvFragment).commit();
+                        return true;
                     case R.id.about:
                         getSupportFragmentManager().beginTransaction().replace(R.id.framefrag,aboutFragment).commit();
                         return true;
