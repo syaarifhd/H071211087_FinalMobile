@@ -4,7 +4,6 @@
     <string name="title">Title :</string>
     <string name="release_date">Release Date :</string>
     <string name="synopsis">Synopsis :</string>
-    <string name="translate_to">Change Language</string>
     <string name="about">About</string>
     <string name="aboutappisi">MyMovie ini Merupakan Project Final dari Praktikum Pemrograman Mobile yang Dimana Tugas ini Menerapkan Activity, Intent, RecyclerView, Fragment, dan Networking</string>
     <string name="about_app">About App</string>
