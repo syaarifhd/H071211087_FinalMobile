@@ -20,6 +20,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ImageView imageView = findViewById(R.id.poster_image);
         TextView rating_tv = findViewById(R.id.mRelease);
         TextView title_tv = findViewById(R.id.mTitle);
@@ -36,6 +37,12 @@ public class DetailActivity extends AppCompatActivity {
         rating_tv.setText(mRating);
         title_tv.setText(mTitle);
         overview_tv.setText(mOverView);
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
+
     }
 
 }
