@@ -1,7 +1,10 @@
 package com.example.mymovie;
 
 public class Tv {
-    String title , poster , overview, release;
+    String title;
+    String poster;
+    String overview;
+    String release;
 
     public Tv(String title , String poster , String overview , String release){
         this.title = title;
